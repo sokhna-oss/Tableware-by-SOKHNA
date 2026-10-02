@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie d'Inspirations & Tables Dressées | TABLEWARE SOKHNA</title>
+    <meta name="description" content="Explorez la galerie visuelle de TABLEWARE SOKHNA : photographies de tables de mariage somptueuses, réceptions élégantes, vaisselle fine et compositions florales à Dakar.">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- =====================================================
+         HEADER / NAVIGATION
+    ===================================================== -->
+    <header>
+        <nav class="navbar">
+            <a href="../index.html" class="logo">
+                <img src="../image/logo.jpg" alt="Logo TABLEWARE SOKHNA">
+                <div class="logo-text">
+                    <h2>TABLEWARE</h2>
+                    <span>SOKHNA</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="galerie.html" class="active">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header-actions">
+                <button class="header-action-btn btn-open-cart" aria-label="Voir le panier">
+                    🛒
+                    <span class="cart-count-badge">0</span>
+                </button>
+                <a href="https://wa.me/221770000000?text=Bonjour%20Tableware%20Sokhna,%20je%20souhaite%20m%27inspirer%20de%20votre%20galerie." target="_blank" class="header-action-btn" aria-label="Contacter sur WhatsApp">
+                    💬
+                </a>
+                <button class="nav-toggle" aria-label="Menu Mobile" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =====================================================
+         HERO GALERIE
+    ===================================================== -->
+    <section class="page-hero page-hero-gallery">
+        <div class="hero-overlay"></div>
+        <div class="page-hero-content">
+            <span class="section-subtitle">Portfolio & Inspirations</span>
+            <h1>Notre Galerie Visuelle</h1>
+            <p>Découvrez nos créations, scénographies de réceptions, tables dressées avec amour et pièces phares en situation réelle.</p>
+        </div>
+    </section>
+
+    <!-- =====================================================
+         GALERIE PHOTO INTERACTIVE
+    ===================================================== -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Inspirations</span>
+                <h2>Des Tables Qui Racontent une Histoire</h2>
+                <p>Cliquez sur chaque image pour l'admirer en haute définition dans notre visionneuse plein écran.</p>
+            </div>
+
+            <!-- Filtres de la galerie -->
+            <div class="product-filters" style="margin-bottom: 45px;">
+                <button class="product-filter-btn gallery-filter-btn active" data-filter="all">Toutes les inspirations</button>
+                <button class="product-filter-btn gallery-filter-btn" data-filter="mariage">Mariages & Cérémonies</button>
+                <button class="product-filter-btn gallery-filter-btn" data-filter="reception">Dîners & Réceptions</button>
+                <button class="product-filter-btn gallery-filter-btn" data-filter="vaisselle">Vaisselle & Services</button>
+                <button class="product-filter-btn gallery-filter-btn" data-filter="details">Décoration & Détails</button>
+            </div>
+
+            <!-- Grille d'images -->
+            <div class="gallery-grid">
+
+                <!-- Image 1 -->
+                <div class="gallery-item" data-category="mariage">
+                    <img src="../image/Mariage.jpg" alt="Scénographie féerique de table pour mariage">
+                    <div class="gallery-overlay">
+                        <h3>Mariage Féerique</h3>
+                        <p>Scénographie réceptions & mariages</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="gallery-item" data-category="mariage">
+                    <img src="../image/deco de table blanc-doré.jpg" alt="Table de fête blanc et doré">
+                    <div class="gallery-overlay">
+                        <h3>Éclat Blanc & Or</h3>
+                        <p>Art de la table mariage chic</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="gallery-item" data-category="reception">
+                    <img src="../image/table1.jpg" alt="Dîner de prestige aux reflets dorés">
+                    <div class="gallery-overlay">
+                        <h3>Dîner de Gala</h3>
+                        <p>Ambiance dorée & festive</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 4 -->
+                <div class="gallery-item" data-category="reception">
+                    <img src="../image/table2.jpg" alt="Table contemporaine dressée pour dîner d'exception">
+                    <div class="gallery-overlay">
+                        <h3>Table Contemporaine</h3>
+                        <p>Dîners privés & convivialité</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 5 -->
+                <div class="gallery-item" data-category="vaisselle">
+                    <img src="../image/table3.jpg" alt="Service de vaisselle et pièces de réception">
+                    <div class="gallery-overlay">
+                        <h3>Harmonie des Matières</h3>
+                        <p>Porcelaine & cristal fin</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 6 -->
+                <div class="gallery-item" data-category="vaisselle">
+                    <img src="../image/Jars Tourron Black Dinnerware.jpg" alt="Collection assiettes en grès noir Tourron">
+                    <div class="gallery-overlay">
+                        <h3>Caractère Minéral</h3>
+                        <p>Collection noire mate</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 7 -->
+                <div class="gallery-item" data-category="reception">
+                    <img src="../image/table21.jpg" alt="Buffet d'honneur et verres de gala">
+                    <div class="gallery-overlay">
+                        <h3>Buffet d'Honneur</h3>
+                        <p>Verres étincelants & service</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 8 -->
+                <div class="gallery-item" data-category="details">
+                    <img src="../image/table31.jpg" alt="Détails de coupelles et bols de présentation">
+                    <div class="gallery-overlay">
+                        <h3>L'Art du Détail</h3>
+                        <p>Coupelles & mise en scène</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 9 -->
+                <div class="gallery-item" data-category="details">
+                    <img src="../image/7 Country Roses - White_Off White - Realistic - Vase Decoration.jpg" alt="Vase en céramique et roses blanches">
+                    <div class="gallery-overlay">
+                        <h3>Douceur Florale</h3>
+                        <p>Vase céramique & roses</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 10 -->
+                <div class="gallery-item" data-category="vaisselle">
+                    <img src="../image/High Ball Glasses for Italian Sodas.jpg" alt="Verres côtelés vintage en cristal">
+                    <div class="gallery-overlay">
+                        <h3>Reflets de Cristal</h3>
+                        <p>Verres High Ball côtelés</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 11 -->
+                <div class="gallery-item" data-category="details">
+                    <img src="../image/kichen decoration ideas.jpg" alt="Décoration cuisine et art de vivre">
+                    <div class="gallery-overlay">
+                        <h3>Cuisine de Charme</h3>
+                        <p>Agencement & art de vivre</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+                <!-- Image 12 -->
+                <div class="gallery-item" data-category="vaisselle">
+                    <img src="../image/Koopmann International Cloche avec Assiette Plate - Diamètre 25 cm - Cloche à Fromage et Service - Assiette de Service, Argenté (1).jpg" alt="Cloche de service hôtelière en argent">
+                    <div class="gallery-overlay">
+                        <h3>Service à la Cloche</h3>
+                        <p>Service hôtelier d'exception</p>
+                    </div>
+                    <span class="gallery-zoom-icon">🔍</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================
+         LIGHTBOX PLEIN ÉCRAN POUR LA GALERIE
+    ===================================================== -->
+    <div id="gallery-lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Fermer la vue plein écran">&times;</button>
+        <button class="lightbox-prev" aria-label="Image précédente">&#10094;</button>
+        <button class="lightbox-next" aria-label="Image suivante">&#10095;</button>
+        
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption">Légende de la photo</div>
+        </div>
+    </div>
+
+    <!-- =====================================================
+         CALL TO ACTION GALERIE
+    ===================================================== -->
+    <section class="cta-luxury">
+        <div class="cta-content">
+            <span class="section-subtitle">Votre Table Idéale</span>
+            <h2>Une Ambiance Vous Inspire ?</h2>
+            <p>Indiquez-nous l'inspiration qui vous a séduit et nous recréerons pour vous une composition identique ou personnalisée.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Créer mon projet</a>
+                <a href="https://wa.me/221770000000?text=Bonjour,%20j%27ai%20rep%C3%A9r%C3%A9%20une%20table%20sur%20votre%20galerie." target="_blank" class="btn btn-whatsapp">Partager sur WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================
+         TIROIR DU PANIER / SÉLECTION
+    ===================================================== -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+    <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-header">
+            <h3>Ma Sélection</h3>
+            <button class="cart-close-btn" aria-label="Fermer le panier">&times;</button>
+        </div>
+        <div class="cart-body">
+            <div class="cart-empty-message">
+                <div class="empty-icon">🍽️</div>
+                <p>Votre sélection est vide.</p>
+                <p style="font-size: 0.8rem; margin-top: 5px;">Découvrez nos articles sur la page produits.</p>
+            </div>
+            <div class="cart-items-list"></div>
+        </div>
+        <div class="cart-footer">
+            <a href="#" target="_blank" class="btn btn-whatsapp cart-order-whatsapp-btn" style="width: 100%; display: none;">
+                Valider ma sélection sur WhatsApp
+            </a>
+            <p>Notre équipe vous confirme la disponibilité sous quelques minutes.</p>
+        </div>
+    </div>
+
+    <!-- =====================================================
+         FOOTER
+    ===================================================== -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="../image/logo.jpg" alt="Logo TABLEWARE SOKHNA">
+                    <div>
+                        <h3>TABLEWARE</h3>
+                        <span>SOKHNA</span>
+                    </div>
+                </div>
+                <p>La référence de l'art de la table et des accessoires culinaires haut de gamme à Dakar. L'élégance à votre table pour tous vos moments de convivialité.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-link" aria-label="Facebook">fb</a>
+                    <a href="#" class="social-link" aria-label="Instagram">ig</a>
+                    <a href="https://wa.me/221770000000" target="_blank" class="social-link" aria-label="WhatsApp">wa</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="apropos.html">À propos de nous</a></li>
+                    <li><a href="services.html">Nos services</a></li>
+                    <li><a href="produits.html">Nos produits</a></li>
+                    <li><a href="galerie.html">Galerie d'inspirations</a></li>
+                    <li><a href="contact.html">Contact & Devis</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Nos Gammes</h4>
+                <ul>
+                    <li><a href="produits.html">Vaisselle Fine & Assiettes</a></li>
+                    <li><a href="produits.html">Verres en Cristal & Carafes</a></li>
+                    <li><a href="produits.html">Couverts Inox & Dorés</a></li>
+                    <li><a href="produits.html">Batteries & Accessoires Cuisine</a></li>
+                    <li><a href="produits.html">Décoration de Table Mariage</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Boutique & Contact</h4>
+                <div class="footer-contact-list">
+                    <div class="footer-contact-item">
+                        <span class="icon">📍</span>
+                        <span>Dakar, Sénégal</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="icon">📞</span>
+                        <a href="tel:+221770000000">+221 77 000 00 00</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="icon">✉</span>
+                        <a href="mailto:contact@tablewaresokhna.com">contact@tablewaresokhna.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="icon">🕒</span>
+                        <span>Lun - Sam : 09h00 - 19h00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TABLEWARE SOKHNA. Tous droits réservés. L'art de la table d'exception.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
